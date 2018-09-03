@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8613EBC3213DA67300824840 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8613EBC2213DA67300824840 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8613EBBD213DA67300824840 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8613EBBF213DA67300824840 /* dynamicWallpaper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dynamicWallpaper; sourceTree = BUILT_PRODUCTS_DIR; };
+		8613EBC2213DA67300824840 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8613EBDF213DAFA400824840 /* 11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpeg; sourceTree = "<group>"; };
+		8613EBE0213DAFA400824840 /* 12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpeg; sourceTree = "<group>"; };
+		8613EBE1213DAFA400824840 /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		8613EBE2213DAFA400824840 /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
+		8613EBE3213DAFA400824840 /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
+		8613EBE4213DAFA400824840 /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
+		8613EBE5213DAFA400824840 /* 15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpeg; sourceTree = "<group>"; };
+		8613EBE6213DAFA400824840 /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
+		8613EBE7213DAFA400824840 /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		8613EBE8213DAFA400824840 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		8613EBE9213DAFA400824840 /* 13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpeg; sourceTree = "<group>"; };
+		8613EBEA213DAFA400824840 /* 14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpeg; sourceTree = "<group>"; };
+		8613EBEB213DAFA400824840 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		8613EBEC213DAFA400824840 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		8613EBED213DAFA400824840 /* 16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpeg; sourceTree = "<group>"; };
+		8613EBEE213DAFA500824840 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		8613EBEF213DB3E200824840 /* 16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 16.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/16.jpeg"; sourceTree = "<group>"; };
+		8613EBF0213DB3E200824840 /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 8.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/8.jpeg"; sourceTree = "<group>"; };
+		8613EBF1213DB3E200824840 /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/5.jpeg"; sourceTree = "<group>"; };
+		8613EBF2213DB3E200824840 /* 13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 13.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/13.jpeg"; sourceTree = "<group>"; };
+		8613EBF3213DB3E200824840 /* 14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 14.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/14.jpeg"; sourceTree = "<group>"; };
+		8613EBF4213DB3E200824840 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/3.jpeg"; sourceTree = "<group>"; };
+		8613EBF5213DB3E200824840 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/4.jpeg"; sourceTree = "<group>"; };
+		8613EBF6213DB3E200824840 /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/7.jpeg"; sourceTree = "<group>"; };
+		8613EBF7213DB3E200824840 /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 9.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/9.jpeg"; sourceTree = "<group>"; };
+		8613EBF8213DB3E200824840 /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 10.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/10.jpeg"; sourceTree = "<group>"; };
+		8613EBF9213DB3E200824840 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/2.jpeg"; sourceTree = "<group>"; };
+		8613EBFA213DB3E200824840 /* 11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 11.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/11.jpeg"; sourceTree = "<group>"; };
+		8613EBFB213DB3E300824840 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/1.jpeg"; sourceTree = "<group>"; };
+		8613EBFC213DB3E300824840 /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/6.jpeg"; sourceTree = "<group>"; };
+		8613EBFD213DB3E300824840 /* 15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 15.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/15.jpeg"; sourceTree = "<group>"; };
+		8613EBFE213DB3E300824840 /* 12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 12.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/12.jpeg"; sourceTree = "<group>"; };
+		8613EBFF213DB8A600824840 /* 16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpeg; sourceTree = "<group>"; };
+		8613EC00213DB8A600824840 /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
+		8613EC01213DB8A600824840 /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		8613EC02213DB8A600824840 /* 13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpeg; sourceTree = "<group>"; };
+		8613EC03213DB8A600824840 /* 14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpeg; sourceTree = "<group>"; };
+		8613EC04213DB8A600824840 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		8613EC05213DB8A600824840 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		8613EC06213DB8A600824840 /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
+		8613EC07213DB8A600824840 /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
+		8613EC08213DB8A700824840 /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
+		8613EC09213DB8A700824840 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		8613EC0A213DB8A700824840 /* 11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpeg; sourceTree = "<group>"; };
+		8613EC0B213DB8A700824840 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		8613EC0C213DB8A700824840 /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		8613EC0D213DB8A700824840 /* 15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpeg; sourceTree = "<group>"; };
+		8613EC0E213DB8A700824840 /* 12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8613EBBC213DA67300824840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8613EBB6213DA67300824840 = {
+			isa = PBXGroup;
+			children = (
+				8613EBC1213DA67300824840 /* dynamicWallpaper */,
+				8613EBC0213DA67300824840 /* Products */,
+				8613EC0B213DB8A700824840 /* 1.jpeg */,
+				8613EC09213DB8A700824840 /* 2.jpeg */,
+				8613EC04213DB8A600824840 /* 3.jpeg */,
+				8613EC05213DB8A600824840 /* 4.jpeg */,
+				8613EC01213DB8A600824840 /* 5.jpeg */,
+				8613EC0C213DB8A700824840 /* 6.jpeg */,
+				8613EC06213DB8A600824840 /* 7.jpeg */,
+				8613EC00213DB8A600824840 /* 8.jpeg */,
+				8613EC07213DB8A600824840 /* 9.jpeg */,
+				8613EC08213DB8A700824840 /* 10.jpeg */,
+				8613EC0A213DB8A700824840 /* 11.jpeg */,
+				8613EC0E213DB8A700824840 /* 12.jpeg */,
+				8613EC02213DB8A600824840 /* 13.jpeg */,
+				8613EC03213DB8A600824840 /* 14.jpeg */,
+				8613EC0D213DB8A700824840 /* 15.jpeg */,
+				8613EBFF213DB8A600824840 /* 16.jpeg */,
+			);
+			sourceTree = "<group>";
+		};
+		8613EBC0213DA67300824840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8613EBBF213DA67300824840 /* dynamicWallpaper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8613EBC1213DA67300824840 /* dynamicWallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				8613EBC2213DA67300824840 /* main.swift */,
+				8613EBFB213DB3E300824840 /* 1.jpeg */,
+				8613EBF9213DB3E200824840 /* 2.jpeg */,
+				8613EBF4213DB3E200824840 /* 3.jpeg */,
+				8613EBF5213DB3E200824840 /* 4.jpeg */,
+				8613EBF1213DB3E200824840 /* 5.jpeg */,
+				8613EBFC213DB3E300824840 /* 6.jpeg */,
+				8613EBF6213DB3E200824840 /* 7.jpeg */,
+				8613EBF0213DB3E200824840 /* 8.jpeg */,
+				8613EBF7213DB3E200824840 /* 9.jpeg */,
+				8613EBF8213DB3E200824840 /* 10.jpeg */,
+				8613EBFA213DB3E200824840 /* 11.jpeg */,
+				8613EBFE213DB3E300824840 /* 12.jpeg */,
+				8613EBF2213DB3E200824840 /* 13.jpeg */,
+				8613EBF3213DB3E200824840 /* 14.jpeg */,
+				8613EBFD213DB3E300824840 /* 15.jpeg */,
+				8613EBEF213DB3E200824840 /* 16.jpeg */,
+				8613EBEC213DAFA400824840 /* 1.jpeg */,
+				8613EBEB213DAFA400824840 /* 2.jpeg */,
+				8613EBE8213DAFA400824840 /* 3.jpeg */,
+				8613EBEE213DAFA500824840 /* 4.jpeg */,
+				8613EBE1213DAFA400824840 /* 5.jpeg */,
+				8613EBE7213DAFA400824840 /* 6.jpeg */,
+				8613EBE4213DAFA400824840 /* 7.jpeg */,
+				8613EBE6213DAFA400824840 /* 8.jpeg */,
+				8613EBE3213DAFA400824840 /* 9.jpeg */,
+				8613EBE2213DAFA400824840 /* 10.jpeg */,
+				8613EBDF213DAFA400824840 /* 11.jpeg */,
+				8613EBE0213DAFA400824840 /* 12.jpeg */,
+				8613EBE9213DAFA400824840 /* 13.jpeg */,
+				8613EBEA213DAFA400824840 /* 14.jpeg */,
+				8613EBE5213DAFA400824840 /* 15.jpeg */,
+				8613EBED213DAFA400824840 /* 16.jpeg */,
+			);
+			path = dynamicWallpaper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8613EBBE213DA67300824840 /* dynamicWallpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8613EBC6213DA67300824840 /* Build configuration list for PBXNativeTarget "dynamicWallpaper" */;
+			buildPhases = (
+				8613EBBB213DA67300824840 /* Sources */,
+				8613EBBC213DA67300824840 /* Frameworks */,
+				8613EBBD213DA67300824840 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dynamicWallpaper;
+			productName = dynamicWallpaper;
+			productReference = 8613EBBF213DA67300824840 /* dynamicWallpaper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8613EBB7213DA67300824840 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Эльдар Дамиров";
+				TargetAttributes = {
+					8613EBBE213DA67300824840 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 8613EBBA213DA67300824840 /* Build configuration list for PBXProject "dynamicWallpaper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8613EBB6213DA67300824840;
+			productRefGroup = 8613EBC0213DA67300824840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8613EBBE213DA67300824840 /* dynamicWallpaper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8613EBBB213DA67300824840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8613EBC3213DA67300824840 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8613EBC4213DA67300824840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8613EBC5213DA67300824840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8613EBC7213DA67300824840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUWER2S3N2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		8613EBC8213DA67300824840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUWER2S3N2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8613EBBA213DA67300824840 /* Build configuration list for PBXProject "dynamicWallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8613EBC4213DA67300824840 /* Debug */,
+				8613EBC5213DA67300824840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8613EBC6213DA67300824840 /* Build configuration list for PBXNativeTarget "dynamicWallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8613EBC7213DA67300824840 /* Debug */,
+				8613EBC8213DA67300824840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8613EBB7213DA67300824840 /* Project object */;
+}
