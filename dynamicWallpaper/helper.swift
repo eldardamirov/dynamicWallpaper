@@ -9,38 +9,38 @@
 import Foundation
 
 extension NSDate
-{
-    func hour() -> Int
     {
+    static let requestedComponents: Set<Calendar.Component> = 
+        [
+        .year,
+        .month,
+        .day,
+        .hour,
+        .minute,
+        .second
+        ]
+    
+    func hour() -> Int
+        {
         //Get Hour
-        let calendar = NSCalendar.currentCalendar()
-        let components = calendar.components(.Hour, fromDate: self)
+        let calendar = NSCalendar.current
+            let components = calendar.dateComponents( NSDate.requestedComponents, from: self as Date )
         let hour = components.hour
 
         //Return Hour
-        return hour
-    }
+        return hour!
+        }
 
 
     func minute() -> Int
-    {
+        {
         //Get Minute
-        let calendar = NSCalendar.currentCalendar()
-        let components = calendar.components(.Minute, fromDate: self)
+        let calendar = NSCalendar.current
+        let components = calendar.dateComponents( NSDate.requestedComponents, from: self as Date )
         let minute = components.minute
 
         //Return Minute
-        return minute
-    }
+        return minute!
+        }
 
-    func toShortTimeString() -> String
-    {
-        //Get Short Time String
-        let formatter = NSDateFormatter()
-        formatter.timeStyle = .ShortStyle
-        let timeString = formatter.stringFromDate(self)
-
-        //Return Short Time String
-        return timeString
     }
-}

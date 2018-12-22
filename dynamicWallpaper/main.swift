@@ -45,7 +45,7 @@ func setWallpaper(wallpaperPath: String)
     
 func determineIndex ( light: Int ) -> String
     {
-    time()
+    NS
     }
 
 
