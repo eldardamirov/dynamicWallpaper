@@ -8,15 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		8613EBC3213DA67300824840 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8613EBC2213DA67300824840 /* main.swift */; };
+		869D459321CED8F8001E15CE /* LightKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869D459221CED8F8001E15CE /* LightKit.swift */; };
+		86FA12F02188CFF000B4655F /* 1.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12E72188CF0F00B4655F /* 1.jpeg */; };
+		86FA12F12188CFF000B4655F /* 2.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12EC2188CF0F00B4655F /* 2.jpeg */; };
+		86FA12F22188CFF000B4655F /* 3.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12EB2188CF0F00B4655F /* 3.jpeg */; };
+		86FA12F32188CFF000B4655F /* 4.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12EF2188CF0F00B4655F /* 4.jpeg */; };
+		86FA12F42188CFF000B4655F /* 5.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12E52188CF0F00B4655F /* 5.jpeg */; };
+		86FA12F52188CFF000B4655F /* 6.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12EE2188CF0F00B4655F /* 6.jpeg */; };
+		86FA12F62188CFF000B4655F /* 7.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12E62188CF0F00B4655F /* 7.jpeg */; };
+		86FA12F72188CFF000B4655F /* 8.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12E12188CF0F00B4655F /* 8.jpeg */; };
+		86FA12F82188CFF000B4655F /* 9.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12EA2188CF0F00B4655F /* 9.jpeg */; };
+		86FA12F92188CFF000B4655F /* 10.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12ED2188CF0F00B4655F /* 10.jpeg */; };
+		86FA12FA2188CFF000B4655F /* 11.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12E82188CF0F00B4655F /* 11.jpeg */; };
+		86FA12FB2188CFF000B4655F /* 12.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12E02188CF0F00B4655F /* 12.jpeg */; };
+		86FA12FC2188CFF000B4655F /* 13.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12E32188CF0F00B4655F /* 13.jpeg */; };
+		86FA12FD2188CFF000B4655F /* 14.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12E42188CF0F00B4655F /* 14.jpeg */; };
+		86FA12FE2188CFF000B4655F /* 15.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12E22188CF0F00B4655F /* 15.jpeg */; };
+		86FA12FF2188CFF000B4655F /* 16.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12E92188CF0F00B4655F /* 16.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8613EBBD213DA67300824840 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 16;
 			files = (
+				86FA12F02188CFF000B4655F /* 1.jpeg in CopyFiles */,
+				86FA12F12188CFF000B4655F /* 2.jpeg in CopyFiles */,
+				86FA12F22188CFF000B4655F /* 3.jpeg in CopyFiles */,
+				86FA12F32188CFF000B4655F /* 4.jpeg in CopyFiles */,
+				86FA12F42188CFF000B4655F /* 5.jpeg in CopyFiles */,
+				86FA12F52188CFF000B4655F /* 6.jpeg in CopyFiles */,
+				86FA12F62188CFF000B4655F /* 7.jpeg in CopyFiles */,
+				86FA12F72188CFF000B4655F /* 8.jpeg in CopyFiles */,
+				86FA12F82188CFF000B4655F /* 9.jpeg in CopyFiles */,
+				86FA12F92188CFF000B4655F /* 10.jpeg in CopyFiles */,
+				86FA12FA2188CFF000B4655F /* 11.jpeg in CopyFiles */,
+				86FA12FB2188CFF000B4655F /* 12.jpeg in CopyFiles */,
+				86FA12FC2188CFF000B4655F /* 13.jpeg in CopyFiles */,
+				86FA12FD2188CFF000B4655F /* 14.jpeg in CopyFiles */,
+				86FA12FE2188CFF000B4655F /* 15.jpeg in CopyFiles */,
+				86FA12FF2188CFF000B4655F /* 16.jpeg in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -25,54 +58,39 @@
 /* Begin PBXFileReference section */
 		8613EBBF213DA67300824840 /* dynamicWallpaper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dynamicWallpaper; sourceTree = BUILT_PRODUCTS_DIR; };
 		8613EBC2213DA67300824840 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		8613EBDF213DAFA400824840 /* 11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpeg; sourceTree = "<group>"; };
-		8613EBE0213DAFA400824840 /* 12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpeg; sourceTree = "<group>"; };
-		8613EBE1213DAFA400824840 /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
-		8613EBE2213DAFA400824840 /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
-		8613EBE3213DAFA400824840 /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
-		8613EBE4213DAFA400824840 /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
-		8613EBE5213DAFA400824840 /* 15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpeg; sourceTree = "<group>"; };
-		8613EBE6213DAFA400824840 /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
-		8613EBE7213DAFA400824840 /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
-		8613EBE8213DAFA400824840 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
-		8613EBE9213DAFA400824840 /* 13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpeg; sourceTree = "<group>"; };
-		8613EBEA213DAFA400824840 /* 14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpeg; sourceTree = "<group>"; };
-		8613EBEB213DAFA400824840 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
-		8613EBEC213DAFA400824840 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
-		8613EBED213DAFA400824840 /* 16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpeg; sourceTree = "<group>"; };
-		8613EBEE213DAFA500824840 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
-		8613EBEF213DB3E200824840 /* 16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 16.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/16.jpeg"; sourceTree = "<group>"; };
-		8613EBF0213DB3E200824840 /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 8.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/8.jpeg"; sourceTree = "<group>"; };
-		8613EBF1213DB3E200824840 /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/5.jpeg"; sourceTree = "<group>"; };
-		8613EBF2213DB3E200824840 /* 13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 13.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/13.jpeg"; sourceTree = "<group>"; };
-		8613EBF3213DB3E200824840 /* 14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 14.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/14.jpeg"; sourceTree = "<group>"; };
-		8613EBF4213DB3E200824840 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/3.jpeg"; sourceTree = "<group>"; };
-		8613EBF5213DB3E200824840 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/4.jpeg"; sourceTree = "<group>"; };
-		8613EBF6213DB3E200824840 /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/7.jpeg"; sourceTree = "<group>"; };
-		8613EBF7213DB3E200824840 /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 9.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/9.jpeg"; sourceTree = "<group>"; };
-		8613EBF8213DB3E200824840 /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 10.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/10.jpeg"; sourceTree = "<group>"; };
-		8613EBF9213DB3E200824840 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/2.jpeg"; sourceTree = "<group>"; };
-		8613EBFA213DB3E200824840 /* 11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 11.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/11.jpeg"; sourceTree = "<group>"; };
-		8613EBFB213DB3E300824840 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/1.jpeg"; sourceTree = "<group>"; };
-		8613EBFC213DB3E300824840 /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/6.jpeg"; sourceTree = "<group>"; };
-		8613EBFD213DB3E300824840 /* 15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 15.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/15.jpeg"; sourceTree = "<group>"; };
-		8613EBFE213DB3E300824840 /* 12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 12.jpeg; path = "../../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/12.jpeg"; sourceTree = "<group>"; };
-		8613EBFF213DB8A600824840 /* 16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpeg; sourceTree = "<group>"; };
-		8613EC00213DB8A600824840 /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
-		8613EC01213DB8A600824840 /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
-		8613EC02213DB8A600824840 /* 13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpeg; sourceTree = "<group>"; };
-		8613EC03213DB8A600824840 /* 14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpeg; sourceTree = "<group>"; };
-		8613EC04213DB8A600824840 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
-		8613EC05213DB8A600824840 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
-		8613EC06213DB8A600824840 /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
-		8613EC07213DB8A600824840 /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
-		8613EC08213DB8A700824840 /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
-		8613EC09213DB8A700824840 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
-		8613EC0A213DB8A700824840 /* 11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpeg; sourceTree = "<group>"; };
-		8613EC0B213DB8A700824840 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
-		8613EC0C213DB8A700824840 /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
-		8613EC0D213DB8A700824840 /* 15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpeg; sourceTree = "<group>"; };
-		8613EC0E213DB8A700824840 /* 12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpeg; sourceTree = "<group>"; };
+		869D459221CED8F8001E15CE /* LightKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightKit.swift; sourceTree = "<group>"; };
+		86FA12E02188CF0F00B4655F /* 12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpeg; sourceTree = SOURCE_ROOT; };
+		86FA12E12188CF0F00B4655F /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = SOURCE_ROOT; };
+		86FA12E22188CF0F00B4655F /* 15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpeg; sourceTree = SOURCE_ROOT; };
+		86FA12E32188CF0F00B4655F /* 13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpeg; sourceTree = SOURCE_ROOT; };
+		86FA12E42188CF0F00B4655F /* 14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpeg; sourceTree = SOURCE_ROOT; };
+		86FA12E52188CF0F00B4655F /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = SOURCE_ROOT; };
+		86FA12E62188CF0F00B4655F /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = SOURCE_ROOT; };
+		86FA12E72188CF0F00B4655F /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = SOURCE_ROOT; };
+		86FA12E82188CF0F00B4655F /* 11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpeg; sourceTree = SOURCE_ROOT; };
+		86FA12E92188CF0F00B4655F /* 16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpeg; sourceTree = SOURCE_ROOT; };
+		86FA12EA2188CF0F00B4655F /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = SOURCE_ROOT; };
+		86FA12EB2188CF0F00B4655F /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = SOURCE_ROOT; };
+		86FA12EC2188CF0F00B4655F /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = SOURCE_ROOT; };
+		86FA12ED2188CF0F00B4655F /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = SOURCE_ROOT; };
+		86FA12EE2188CF0F00B4655F /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = SOURCE_ROOT; };
+		86FA12EF2188CF0F00B4655F /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = SOURCE_ROOT; };
+		86FA13002188D0DF00B4655F /* 11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 11.jpeg; path = "../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/11.jpeg"; sourceTree = "<group>"; };
+		86FA13012188D0DF00B4655F /* 13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 13.jpeg; path = "../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/13.jpeg"; sourceTree = "<group>"; };
+		86FA13022188D0DF00B4655F /* 15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 15.jpeg; path = "../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/15.jpeg"; sourceTree = "<group>"; };
+		86FA13032188D0DF00B4655F /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpeg; path = "../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/4.jpeg"; sourceTree = "<group>"; };
+		86FA13042188D0DF00B4655F /* 16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 16.jpeg; path = "../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/16.jpeg"; sourceTree = "<group>"; };
+		86FA13052188D0DF00B4655F /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpeg; path = "../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/2.jpeg"; sourceTree = "<group>"; };
+		86FA13062188D0E000B4655F /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 10.jpeg; path = "../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/10.jpeg"; sourceTree = "<group>"; };
+		86FA13072188D0E000B4655F /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpeg; path = "../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/3.jpeg"; sourceTree = "<group>"; };
+		86FA13082188D0E000B4655F /* 14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 14.jpeg; path = "../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/14.jpeg"; sourceTree = "<group>"; };
+		86FA13092188D0E000B4655F /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpeg; path = "../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/5.jpeg"; sourceTree = "<group>"; };
+		86FA130A2188D0E000B4655F /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7.jpeg; path = "../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/7.jpeg"; sourceTree = "<group>"; };
+		86FA130B2188D0E000B4655F /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpeg; path = "../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/6.jpeg"; sourceTree = "<group>"; };
+		86FA130C2188D0E000B4655F /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpeg; path = "../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/1.jpeg"; sourceTree = "<group>"; };
+		86FA130D2188D0E000B4655F /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 8.jpeg; path = "../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/8.jpeg"; sourceTree = "<group>"; };
+		86FA130E2188D0E000B4655F /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 9.jpeg; path = "../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/9.jpeg"; sourceTree = "<group>"; };
+		86FA130F2188D0E000B4655F /* 12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 12.jpeg; path = "../../Library/Developer/Xcode/DerivedData/dynamicWallpaper-cmnlmuxgfbandqcvqpglxzwfqwuc/Build/Products/Debug/12.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,22 +109,22 @@
 			children = (
 				8613EBC1213DA67300824840 /* dynamicWallpaper */,
 				8613EBC0213DA67300824840 /* Products */,
-				8613EC0B213DB8A700824840 /* 1.jpeg */,
-				8613EC09213DB8A700824840 /* 2.jpeg */,
-				8613EC04213DB8A600824840 /* 3.jpeg */,
-				8613EC05213DB8A600824840 /* 4.jpeg */,
-				8613EC01213DB8A600824840 /* 5.jpeg */,
-				8613EC0C213DB8A700824840 /* 6.jpeg */,
-				8613EC06213DB8A600824840 /* 7.jpeg */,
-				8613EC00213DB8A600824840 /* 8.jpeg */,
-				8613EC07213DB8A600824840 /* 9.jpeg */,
-				8613EC08213DB8A700824840 /* 10.jpeg */,
-				8613EC0A213DB8A700824840 /* 11.jpeg */,
-				8613EC0E213DB8A700824840 /* 12.jpeg */,
-				8613EC02213DB8A600824840 /* 13.jpeg */,
-				8613EC03213DB8A600824840 /* 14.jpeg */,
-				8613EC0D213DB8A700824840 /* 15.jpeg */,
-				8613EBFF213DB8A600824840 /* 16.jpeg */,
+				86FA130C2188D0E000B4655F /* 1.jpeg */,
+				86FA13052188D0DF00B4655F /* 2.jpeg */,
+				86FA13072188D0E000B4655F /* 3.jpeg */,
+				86FA13032188D0DF00B4655F /* 4.jpeg */,
+				86FA13092188D0E000B4655F /* 5.jpeg */,
+				86FA130B2188D0E000B4655F /* 6.jpeg */,
+				86FA130A2188D0E000B4655F /* 7.jpeg */,
+				86FA130D2188D0E000B4655F /* 8.jpeg */,
+				86FA130E2188D0E000B4655F /* 9.jpeg */,
+				86FA13062188D0E000B4655F /* 10.jpeg */,
+				86FA13002188D0DF00B4655F /* 11.jpeg */,
+				86FA130F2188D0E000B4655F /* 12.jpeg */,
+				86FA13012188D0DF00B4655F /* 13.jpeg */,
+				86FA13082188D0E000B4655F /* 14.jpeg */,
+				86FA13022188D0DF00B4655F /* 15.jpeg */,
+				86FA13042188D0DF00B4655F /* 16.jpeg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,38 +140,23 @@
 			isa = PBXGroup;
 			children = (
 				8613EBC2213DA67300824840 /* main.swift */,
-				8613EBFB213DB3E300824840 /* 1.jpeg */,
-				8613EBF9213DB3E200824840 /* 2.jpeg */,
-				8613EBF4213DB3E200824840 /* 3.jpeg */,
-				8613EBF5213DB3E200824840 /* 4.jpeg */,
-				8613EBF1213DB3E200824840 /* 5.jpeg */,
-				8613EBFC213DB3E300824840 /* 6.jpeg */,
-				8613EBF6213DB3E200824840 /* 7.jpeg */,
-				8613EBF0213DB3E200824840 /* 8.jpeg */,
-				8613EBF7213DB3E200824840 /* 9.jpeg */,
-				8613EBF8213DB3E200824840 /* 10.jpeg */,
-				8613EBFA213DB3E200824840 /* 11.jpeg */,
-				8613EBFE213DB3E300824840 /* 12.jpeg */,
-				8613EBF2213DB3E200824840 /* 13.jpeg */,
-				8613EBF3213DB3E200824840 /* 14.jpeg */,
-				8613EBFD213DB3E300824840 /* 15.jpeg */,
-				8613EBEF213DB3E200824840 /* 16.jpeg */,
-				8613EBEC213DAFA400824840 /* 1.jpeg */,
-				8613EBEB213DAFA400824840 /* 2.jpeg */,
-				8613EBE8213DAFA400824840 /* 3.jpeg */,
-				8613EBEE213DAFA500824840 /* 4.jpeg */,
-				8613EBE1213DAFA400824840 /* 5.jpeg */,
-				8613EBE7213DAFA400824840 /* 6.jpeg */,
-				8613EBE4213DAFA400824840 /* 7.jpeg */,
-				8613EBE6213DAFA400824840 /* 8.jpeg */,
-				8613EBE3213DAFA400824840 /* 9.jpeg */,
-				8613EBE2213DAFA400824840 /* 10.jpeg */,
-				8613EBDF213DAFA400824840 /* 11.jpeg */,
-				8613EBE0213DAFA400824840 /* 12.jpeg */,
-				8613EBE9213DAFA400824840 /* 13.jpeg */,
-				8613EBEA213DAFA400824840 /* 14.jpeg */,
-				8613EBE5213DAFA400824840 /* 15.jpeg */,
-				8613EBED213DAFA400824840 /* 16.jpeg */,
+				869D459221CED8F8001E15CE /* LightKit.swift */,
+				86FA12E72188CF0F00B4655F /* 1.jpeg */,
+				86FA12EC2188CF0F00B4655F /* 2.jpeg */,
+				86FA12EB2188CF0F00B4655F /* 3.jpeg */,
+				86FA12EF2188CF0F00B4655F /* 4.jpeg */,
+				86FA12E52188CF0F00B4655F /* 5.jpeg */,
+				86FA12EE2188CF0F00B4655F /* 6.jpeg */,
+				86FA12E62188CF0F00B4655F /* 7.jpeg */,
+				86FA12E12188CF0F00B4655F /* 8.jpeg */,
+				86FA12EA2188CF0F00B4655F /* 9.jpeg */,
+				86FA12ED2188CF0F00B4655F /* 10.jpeg */,
+				86FA12E82188CF0F00B4655F /* 11.jpeg */,
+				86FA12E02188CF0F00B4655F /* 12.jpeg */,
+				86FA12E32188CF0F00B4655F /* 13.jpeg */,
+				86FA12E42188CF0F00B4655F /* 14.jpeg */,
+				86FA12E22188CF0F00B4655F /* 15.jpeg */,
+				86FA12E92188CF0F00B4655F /* 16.jpeg */,
 			);
 			path = dynamicWallpaper;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8613EBC3213DA67300824840 /* main.swift in Sources */,
+				869D459321CED8F8001E15CE /* LightKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

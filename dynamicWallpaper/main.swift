@@ -8,6 +8,8 @@
 
 import AppKit
 
+
+
 func setWallpaper(wallpaperPath: String)
     {
     var error : NSError?;
@@ -21,8 +23,8 @@ func setWallpaper(wallpaperPath: String)
         return;
         }
 
-        options[NSWorkspace.DesktopImageOptionKey.imageScaling] = 1;
-        options[NSWorkspace.DesktopImageOptionKey.allowClipping] = true;
+        options [ NSWorkspace.DesktopImageOptionKey.imageScaling ] = 1;
+        options [ NSWorkspace.DesktopImageOptionKey.allowClipping ] = true;
 
 
     for screen in screens
@@ -38,15 +40,21 @@ func setWallpaper(wallpaperPath: String)
         }
     }
 
+let lk = LightKit();
+
+let lightSensorsReadings = lk?.lightSensors;
+print("Left sensor: \(lightSensorsReadings?.left).")
+print("Right sensor: \(lightSensorsReadings?.right).")
 
 
-var wallpaperExtension = ".jpeg";
+//var wallpaperExtension = ".jpeg";
 
-for index in 1...16
-    {
-    Thread.sleep ( until: Date ( timeIntervalSinceNow: 0.5 ) )
-    setWallpaper ( wallpaperPath: String ( String ( index ) + wallpaperExtension ) );
-    }
+//for index in 1...16
+//    {
+//    Thread.sleep ( until: Date ( timeIntervalSinceNow: 0.5 ) )
+//    setWallpaper ( wallpaperPath: String ( String ( index ) + wallpaperExtension ) );
+//    }
+
 
 
 
