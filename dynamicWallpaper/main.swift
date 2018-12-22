@@ -12,6 +12,7 @@ import AppKit
 
 let wallpaperExtension = ".jpeg";
 let lk = LightKit();
+let time = NSDate();
 
 func setWallpaper(wallpaperPath: String)
     {
@@ -43,11 +44,12 @@ func setWallpaper(wallpaperPath: String)
         }
     }
     
-func determineIndex ( light: Int ) -> String
-    {
-    NS
-    }
+//func determineIndex ( light: Int ) -> String
+//    {
+//    
+//    }
 
+print ( "Current time hour: \( time.currentMinute() )" );
 
 
 

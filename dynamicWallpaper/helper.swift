@@ -20,7 +20,7 @@ extension NSDate
         .second
         ]
     
-    func hour() -> Int
+    func currentHour() -> Int
         {
         //Get Hour
         let calendar = NSCalendar.current
@@ -32,7 +32,7 @@ extension NSDate
         }
 
 
-    func minute() -> Int
+    func currentMinute() -> Int
         {
         //Get Minute
         let calendar = NSCalendar.current
