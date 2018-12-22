@@ -6,9 +6,12 @@
 //  Copyright © 2018 Эльдар Дамиров. All rights reserved.
 //
 
+
+
 import AppKit
 
-
+let wallpaperExtension = ".jpeg";
+let lk = LightKit();
 
 func setWallpaper(wallpaperPath: String)
     {
@@ -39,15 +42,25 @@ func setWallpaper(wallpaperPath: String)
             }
         }
     }
+    
+func determineIndex ( light: Int ) -> String
+    {
+    time()
+    }
 
-let lk = LightKit();
-
-let lightSensorsReadings = lk?.lightSensors;
-print("Left sensor: \(lightSensorsReadings?.left).")
-print("Right sensor: \(lightSensorsReadings?.right).")
 
 
-//var wallpaperExtension = ".jpeg";
+
+var lightSensorsReadings = lk?.lightSensors;
+
+while ( true )
+    {
+    Thread.sleep ( until: Date ( timeIntervalSinceNow: 60 ) );
+    lightSensorsReadings = lk?.lightSensors;
+    }
+
+
+
 
 //for index in 1...16
 //    {

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8613EBC3213DA67300824840 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8613EBC2213DA67300824840 /* main.swift */; };
 		869D459321CED8F8001E15CE /* LightKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869D459221CED8F8001E15CE /* LightKit.swift */; };
+		869D459521CEE1ED001E15CE /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869D459421CEE1ED001E15CE /* helper.swift */; };
 		86FA12F02188CFF000B4655F /* 1.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12E72188CF0F00B4655F /* 1.jpeg */; };
 		86FA12F12188CFF000B4655F /* 2.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12EC2188CF0F00B4655F /* 2.jpeg */; };
 		86FA12F22188CFF000B4655F /* 3.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86FA12EB2188CF0F00B4655F /* 3.jpeg */; };
@@ -59,6 +60,7 @@
 		8613EBBF213DA67300824840 /* dynamicWallpaper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dynamicWallpaper; sourceTree = BUILT_PRODUCTS_DIR; };
 		8613EBC2213DA67300824840 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		869D459221CED8F8001E15CE /* LightKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightKit.swift; sourceTree = "<group>"; };
+		869D459421CEE1ED001E15CE /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
 		86FA12E02188CF0F00B4655F /* 12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpeg; sourceTree = SOURCE_ROOT; };
 		86FA12E12188CF0F00B4655F /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = SOURCE_ROOT; };
 		86FA12E22188CF0F00B4655F /* 15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpeg; sourceTree = SOURCE_ROOT; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				8613EBC2213DA67300824840 /* main.swift */,
+				869D459421CEE1ED001E15CE /* helper.swift */,
 				869D459221CED8F8001E15CE /* LightKit.swift */,
 				86FA12E72188CF0F00B4655F /* 1.jpeg */,
 				86FA12EC2188CF0F00B4655F /* 2.jpeg */,
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				869D459521CEE1ED001E15CE /* helper.swift in Sources */,
 				8613EBC3213DA67300824840 /* main.swift in Sources */,
 				869D459321CED8F8001E15CE /* LightKit.swift in Sources */,
 			);
